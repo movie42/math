@@ -1,7 +1,7 @@
 import Canvas from "../../Components/Canvas";
 
-const width = window.innerWidth;
-const height = window.innerHeight;
+const width = innerWidth;
+const height = innerHeight;
 const canvas = new Canvas({ canvasId: "canvas", width, height });
 const context = canvas.getContext();
 
